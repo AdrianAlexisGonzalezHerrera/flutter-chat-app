@@ -14,7 +14,9 @@ const MyApp({super.key});
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       // initialRoute: 'loading',
-      initialRoute: 'login',
+      // initialRoute: 'login',
+      // initialRoute: 'usuarios',
+      initialRoute: 'chat',
       routes: appRoutes,
     );
   }
